@@ -1,9 +1,9 @@
-
+import { GreetUser } from "./Components/greetuser/GreetUser";
 
 function App() {
   return (
    <div >
-     This is my App
+     <GreetUser/>
    </div>
   );
 }
