@@ -1,11 +1,13 @@
-import { GreetUser } from "./Components/greetuser/GreetUser";
+import {Routes} from "./routes/Routes"
+import {Navigation} from "./components/navigation/Navigation";
 
 function App() {
-  return (
-   <div >
-     <GreetUser name=".Net20D"/>
-   </div>
+  return(
+     <Routes>
+      <Navigation/>
+     </Routes>
+    
   );
-}
+};
 
 export default App;
