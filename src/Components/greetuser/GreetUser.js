@@ -1,7 +1,15 @@
 import React from 'react'
+import './GreetUser.css'
 
-export const GreetUser = () => {
-return(
-    <h1>Welcome to my page</h1>
-)
+export const GreetUser = (props) => {
+    const showAlert = () => {
+        alert("You clicked on me!")
+    }
+    return (
+        <div className="greetuser">
+        <h1 className="greetuser__header" onClick ={() => showAlert()}>
+            Welcome to my page, {props.name}!
+         </h1>
+         </div>
+    )
 }
