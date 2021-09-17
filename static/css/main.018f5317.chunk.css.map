@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Components/greetuser/GreetUser.css"],"names":[],"mappings":"AAAA,WACI,sBAAuB,CACvB,WACJ","file":"main.018f5317.chunk.css","sourcesContent":[".greetuser{\r\n    background-color: brown;\r\n    padding: 2em;\r\n}"]}
